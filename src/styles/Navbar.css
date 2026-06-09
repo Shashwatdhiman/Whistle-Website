@@ -1,0 +1,128 @@
+.navbar {
+    width: 100%;
+}
+
+.navbar-top {
+    height: 80px;
+    padding: 16px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.logo {
+    width: 140px;
+    height: 46px;
+    object-fit: contain;
+}
+
+.call-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-btn img {
+    width: 186px;
+    height: 48 px;
+}
+
+.offer-bar {
+    height: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+    background: linear-gradient(
+        90deg,
+        #d8efd4 0%,
+        #dcecff 100%
+    );
+    color: #000;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin: 8px;
+}
+
+.close-btn {
+    margin-left: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    transition: color 0.2s;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .navbar-top {
+        height: 64px;
+        padding: 0 20px;
+    }
+
+    .logo {
+        width: 110px;
+        height: 38px;
+    }
+
+    .call-btn img{
+        width: 186px;
+        height: 40px;
+    }
+
+    .offer-bar {
+        font-size: 12px;
+        text-align: center;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+  .navbar-top {
+    height: 60px;
+    padding: 0 16px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 38px;
+  }
+
+  .call-btn img {
+    width: 186px;
+    height: 40px;
+  }
+
+  .offer-bar {
+    height: 30px;
+
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 12px;
+
+    padding: 0 8px;
+    text-align: center;
+  }
+
+  .old-price {
+    font-weight: 400;
+  }
+}
+
+
