@@ -1,12 +1,94 @@
-# React + Vite
+# Whistle Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application built as part of a Frontend Developer Assessment. The project recreates the provided Figma design and integrates dynamic product data using the Fake Store API.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://whistle-website-5djc.vercel.app/
 
-## Expanding the ESLint configuration
+## GitHub Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://github.com/ShashwatDhiman/Whistle-Website
+
+## Features
+
+* Responsive design for desktop and mobile devices
+* Reusable React functional components
+* API integration using Fake Store API
+* Loading and error states
+* Product cards with hover effects
+* Custom loading and error components
+* Clean and organized folder structure
+
+## Tech Stack
+
+* React
+* JavaScript
+* CSS
+* Vite
+* Fake Store API
+
+## Folder Structure
+
+```
+src
+│
+├── assets
+├── components
+│   ├── Navbar.jsx
+│   ├── Header.jsx
+│   ├── Products.jsx
+│   ├── Footer.jsx
+│   ├── Loading.jsx
+│   └── Error.jsx
+│
+├── hooks
+│   └── useData.js
+│
+├── styles
+│   ├── Navbar.css
+│   ├── Header.css
+│   ├── Product.css
+│   ├── Footer.css
+│   ├── Loading.css
+│   └── Error.css
+│
+├── App.jsx
+└── main.jsx
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ShashwatDhiman/Whistle-Website.git
+```
+
+Move into the project directory:
+
+```bash
+cd Whistle-Website
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Author
+
+**Shashwat Dhiman**
